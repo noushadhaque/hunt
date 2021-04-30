@@ -1,0 +1,1036 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* ===================nav part start======================= */
+  nav i {
+    color: #fff;
+  }
+
+  nav ul {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  nav ul li {
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li a:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  nav ul li a::before {
+    display: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+  }
+
+  /* ===================nav part end======================= */
+  /* ===================banner part start======================= */
+
+  .bnr-overlay .banner-text {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  .bnr-overlay h2 {
+    font-size: 26px;
+  }
+
+  .bnr-overlay h1 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+
+  .bnr-overlay p {
+    line-height: 18px;
+    width: auto;
+    margin: 20px 0;
+  }
+
+  #banner-part .banner-one {
+    clip-path: none;
+  }
+
+  #banner-part .banner-two {
+    clip-path: none;
+  }
+
+  #banner-part .banner-three {
+    clip-path: none;
+  }
+
+  .bnr-overlay a {
+    font-size: 14px;
+    margin: 35px 6px 0px;
+  }
+
+  #banner-part .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0 !important;
+  }
+
+  #banner-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #banner-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #fec600;
+    position: relative;
+  }
+
+  #banner-part .slick-dots .slick-active button {
+    background: #fec600;
+    border-color: #fec600;
+  }
+
+  /* ===================banner part end======================= */
+  /* ===================about part start======================= */
+  #about-part .title h2 {
+    font-size: 26px;
+    margin-top: 30px;
+  }
+
+  #about-part .title p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 12px auto;
+    width: auto;
+  }
+
+  #about-part .shape {
+    display: none;
+  }
+
+  #about-part i {
+    display: none;
+  }
+
+  #about-part .item .border-round {
+    display: none;
+  }
+
+  #about-part .item .details {
+    margin-bottom: -30px !important;
+  }
+
+  #about-part .item-right .details {
+    margin-bottom: -30px !important;
+  }
+  /* ===================about part end======================= */
+  /* ===================portfolio part start================= */
+  #portfolio-part::before {
+    display: none;
+  }
+
+  #portfolio-part::after {
+    display: none;
+  }
+
+  #portfolio-part .port-overlay {
+    padding: 20px 0;
+  }
+
+  .title h2 {
+    font-size: 26px;
+  }
+
+  .title p {
+    width: auto;
+    margin: 5px auto;
+  }
+
+  #portfolio-part .item {
+    padding-top: 00px;
+  }
+  /* ===================porfolio part end==================== */
+  /* ===================service part start==================== */
+  #service-part .service {
+    flex-direction: column;
+    background: #eeeeee;
+    padding: 20px 0;
+    height: auto;
+  }
+
+  #service-part .service-slider {
+    margin-top: 65px;
+    margin-bottom: 70px;
+  }
+
+  #service-part .slick-center .paragraph {
+    filter: none;
+  }
+
+  #service-part .service .paragraph p {
+    padding: 5px 18px;
+  }
+
+  #service-part .service:nth-child(2n + 1) {
+    flex-direction: column;
+  }
+
+  #service-part .line {
+    display: none;
+  }
+
+  #service-part .service .heading {
+    display: block;
+  }
+
+  #service-part .service .heading h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #service-part .service .image .round {
+    width: 55px;
+    height: 55px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  #service-part .service .image .round img {
+    width: 30px;
+    height: 30px;
+  }
+  /* ===================service part end==================== */
+  /* ===================team part start==================== */
+
+  #team-part .team-background {
+    clip-path: none;
+  }
+
+  #team-part .team-background .overlay {
+    padding: 80px 0;
+  }
+
+  #team-part .team-image .line2 img {
+    display: none;
+  }
+
+  #team-part .text-slider .text .shape {
+    display: none;
+  }
+
+  #team-part .text-slider .text .txt-details {
+    margin-left: 0;
+    width: auto;
+  }
+
+  #team-part .up {
+    top: -44px;
+  }
+
+  #team-part .down {
+    bottom: -293%;
+  }
+
+  #team-part .text-slider .text .txt-details h3 {
+    text-align: center;
+  }
+
+  #team-part .text-slider .text .txt-details h4 {
+    text-align: center;
+  }
+
+  #team-part .text-slider .text .txt-details .icon {
+    text-align: center;
+  }
+  /* ===================team part end====================== */
+  /* ===================pricing part start====================== */
+  #price-part .title h2 {
+    padding-top: 50px;
+  }
+
+  #price-part .title p {
+    margin-bottom: 20px;
+  }
+
+  #price-part .item {
+    margin: 0 5px;
+    margin-bottom: 20px;
+  }
+  /* ===================pricing part end====================== */
+  /* ===================counter part start====================== */
+  #counter .main-counter-area {
+    clip-path: none;
+    height: auto;
+  }
+
+  #counter .main-counter-area .overlay .rotate {
+    transform: rotate(0deg);
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one {
+    margin: 24px 10px 0;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one h2 {
+    transform: rotate(0deg);
+    font-size: 24px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one p {
+    transform: rotate(0deg);
+    font-size: 19px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one {
+    padding-bottom: 0px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .tea {
+    padding-bottom: 29px;
+  }
+
+  /* ===================counter part end====================== */
+  /* ===================member part start====================== */
+  #member-part .title {
+    margin-bottom: 25px;
+  }
+
+  #member-part .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #member-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #member-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #969696;
+    border-radius: 50%;
+  }
+
+  #member-part .slick-dots .slick-active button {
+    background: yellow;
+    border-color: yellow;
+  }
+  /* ===================member part end=========================== */
+  /* ===================market place start======================== */
+  #market-place .main-area {
+    clip-path: none;
+  }
+
+  #market-place .main-area .rotate {
+    transform: rotate(0deg);
+  }
+
+  #market-place .main-area .market-slider .place-one {
+    position: relative;
+    padding: 50px 0;
+    margin: 45px 10px;
+  }
+
+  #market-place .main-area .market-slider .place-one img {
+    transform: rotate(0deg);
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* ===================market place end============================ */
+  /* ===================footer place start========================== */
+  #footer-part .footer-top::before {
+    width: 0;
+  }
+
+  #footer-part .footer-top .logo {
+    transform: rotate(0deg);
+    padding: 20px 0;
+  }
+
+  #footer-part .footer-top .logo img {
+    transform: rotate(0deg);
+  }
+
+  #footer-part .footer .footer-item {
+    padding-bottom: 20px;
+  }
+  /* ===================footer place end============================ */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* =======================nav part start========================= */
+  nav i {
+    color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+  }
+
+  nav ul {
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+
+  nav ul li {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  nav ul li a::before {
+    display: none;
+  }
+
+  /* =======================nav part end========================= */
+
+  /* =======================banner part start========================= */
+  #banner-part .banner-one {
+    clip-path: none;
+  }
+
+  #banner-part .banner-two {
+    clip-path: none;
+  }
+
+  #banner-part .banner-three {
+    clip-path: none;
+  }
+
+  .bnr-overlay .banner-text {
+    padding-top: 115px;
+    padding-bottom: 70px;
+  }
+
+  .bnr-overlay h2 {
+    font-size: 30px;
+  }
+
+  .bnr-overlay h1 {
+    font-size: 45px;
+    line-height: 25px;
+    margin: 22px 0;
+  }
+
+  .bnr-overlay p {
+    width: auto;
+  }
+
+  .bnr-overlay a {
+    font-size: 14px;
+    margin: 30px 6px 0px;
+  }
+
+  #banner-part .slick-dots {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #banner-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #banner-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #fec600;
+  }
+
+  #banner-part .slick-dots .slick-active button {
+    background: #fec600;
+    border-color: #fec600;
+  }
+  /* =======================banner part end============================ */
+  /* =======================about part start=========================== */
+  .title h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .title p {
+    font-size: 14px;
+    margin: 15px auto;
+    width: auto;
+  }
+
+  #about-part .item .details {
+    margin-bottom: -28px !important;
+  }
+
+  #about-part .item-right .details {
+    margin-bottom: -28px !important;
+  }
+
+  #about-part .details .shape {
+    display: none;
+  }
+
+  #about-part .details i {
+    display: none;
+  }
+
+  /* =======================about part end============================= */
+  /* =======================portfolio part start============================= */
+  #portfolio-part::before {
+    display: none;
+  }
+
+  #portfolio-part::after {
+    display: none;
+  }
+
+  #portfolio-part .item {
+    padding-top: 0px;
+  }
+
+  #portfolio-part .port-overlay {
+    padding: 20px 0;
+  }
+
+  .title h2 {
+    margin-top: 20px;
+  }
+
+  .title p {
+    margin: 20px auto;
+  }
+  /* =======================portfolio part end=============================== */
+  /* =======================service part start=============================== */
+  #service-part {
+    margin-top: 35px;
+  }
+
+  #service-part .title p {
+    margin: 0px auto;
+  }
+
+  #service-part .line {
+    display: none;
+  }
+
+  #service-part .service-slider {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  #service-part .service {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #service-part .service:nth-child(2n + 1) {
+    flex-direction: column;
+  }
+
+  #service-part .service:nth-child(2n + 1) .heading {
+    justify-content: center;
+  }
+
+  #service-part .service .heading {
+    justify-content: center;
+  }
+
+  #service-part .service .image .round {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+  #service-part .service .image .round img {
+    width: 45px;
+    height: 45px;
+  }
+
+  #service-part .service .paragraph .shape-right {
+    display: none;
+  }
+
+  #service-part .service .paragraph .shape-left {
+    display: none;
+  }
+
+  /* =======================service part end================================= */
+  /* =======================team part start================================= */
+  #team-part .team-background {
+    clip-path: none;
+  }
+
+  #team-part .team-background .overlay {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  #team-part .text-slider .text .txt-details {
+    width: auto;
+    margin-left: 0;
+  }
+
+  #team-part .text-slider .text .shape {
+    display: none;
+  }
+
+  #team-part .team-image .line2 img {
+    height: 540px;
+  }
+
+  #team-part .down {
+    background: transparent;
+    bottom: -218%;
+  }
+  /* =======================team part end=================================== */
+  /* =======================pricing part start=================================== */
+  #price-part .title h2 {
+    margin-top: 35px;
+  }
+
+  #price-part .item {
+    margin: 15px 10px;
+  }
+  /* =======================pricing part end=================================== */
+  /* =======================counter part start================================= */
+  #counter .main-counter-area {
+    clip-path: none;
+    height: auto;
+  }
+
+  #counter .main-counter-area .overlay .rotate {
+    transform: rotate(0deg);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one {
+    margin: 25px 10px 25px;
+    width: 82px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one {
+    padding-bottom: 0px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one h2 {
+    transform: rotate(0deg);
+    font-size: 22px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one p {
+    transform: rotate(0deg);
+    font-size: 14px;
+  }
+  /* =======================counter part end=================================== */
+  /* =======================member part start=================================== */
+
+  #member-part .title {
+    margin-bottom: 20px;
+  }
+
+  #member-part .title h2 {
+    margin-top: 35px;
+  }
+
+  #member-part .title p {
+    margin: 10px auto;
+  }
+
+  #member-part .member-one {
+    margin: 0 11px;
+  }
+
+  #member-part .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #member-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #member-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 1px solid #757575;
+    border-radius: 50%;
+  }
+
+  #member-part .slick-dots .slick-active button {
+    background-color: #fec600;
+    border-color: #fec600;
+  }
+
+  #member-part .member-one .social i {
+    margin: 0 5px;
+  }
+  /* =======================member part end=================================== */
+  /* =======================market part start=================================== */
+  #market-place .main-area {
+    clip-path: none;
+  }
+
+  #market-place .main-area .rotate {
+    transform: rotate(0deg);
+  }
+
+  #market-place .main-area .market-slider .place-one img {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+
+  #market-place .main-area .market-slider .place-one {
+    margin: 30px 10px;
+  }
+  /* 
+ 
+  /* =======================market part end======================================= */
+  /* =======================footer part start===================================== */
+  #footer-part .footer-top::before {
+    display: none;
+  }
+
+  #footer-part .footer-top .logo {
+    border-bottom: 1px solid #bdb3b3;
+    transform: rotate(0deg);
+    padding: 18px 0;
+  }
+
+  #footer-part .footer-top .logo img {
+    transform: rotate(0deg);
+  }
+
+  #footer-part .footer .footer-item:nth-child(even)::after {
+    width: 0;
+  }
+  /* =======================footer part end======================================= */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* ==============================nav part start=========================== */
+  nav i {
+    color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+  }
+
+  nav ul {
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+
+  nav ul li {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  nav ul li a::before {
+    display: none;
+  }
+  /* ==============================nav part end================================ */
+  /* ==============================banner part start=========================== */
+  #banner-part .banner-one {
+    clip-path: none;
+  }
+
+  #banner-part .banner-two {
+    clip-path: none;
+  }
+
+  #banner-part .banner-three {
+    clip-path: none;
+  }
+
+  .bnr-overlay .banner-text {
+    padding-top: 115px;
+    padding-bottom: 55px;
+  }
+
+  .bnr-overlay h2 {
+    font-size: 30px;
+  }
+
+  .bnr-overlay h1 {
+    font-size: 45px;
+    line-height: 25px;
+    margin: 22px 0;
+  }
+
+  .bnr-overlay p {
+    width: auto;
+  }
+
+  .bnr-overlay a {
+    font-size: 14px;
+    margin: 30px 6px 0px;
+  }
+
+  #banner-part .slick-dots {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #banner-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #banner-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #fec600;
+  }
+
+  #banner-part .slick-dots .slick-active button {
+    background: #fec600;
+    border-color: #fec600;
+  }
+  /* ==============================banner part end=========================== */
+  /* ==============================about part start=========================== */
+  .title h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .title p {
+    font-size: 14px;
+    margin: 15px auto;
+    width: auto;
+  }
+
+  #about-part .item .details {
+    margin-bottom: -28px !important;
+  }
+
+  #about-part .item-right .details {
+    margin-bottom: -28px !important;
+  }
+
+  #about-part .details .shape {
+    display: none;
+  }
+
+  #about-part .details i {
+    display: none;
+  }
+  /* ==============================about part end============================= */
+  /* ==============================portfolio part start============================= */
+  #portfolio-part::before {
+    display: none;
+  }
+
+  #portfolio-part::after {
+    display: none;
+  }
+
+  #portfolio-part .port-overlay {
+    padding: 20px 0;
+  }
+  /* ==============================portfolio part end=============================== */
+  /* ==============================service part start=============================== */
+  #service-part .service {
+    height: auto;
+  }
+
+  #service-part .service .heading h3 {
+    margin-top: 150px;
+  }
+
+  #service-part .line {
+    height: 352px;
+  }
+  /* ==============================service part end================================= */
+  /* ==============================team part start================================== */
+  #team-part .team-background {
+    clip-path: none;
+  }
+
+  #team-part .team-background .overlay {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  #team-part .text-slider .text .txt-details {
+    width: auto;
+    margin-right: 38px;
+  }
+
+  #team-part .text-slider .text .shape {
+    display: none;
+  }
+
+  #team-part .down {
+    bottom: -373px;
+  }
+
+  #team-part .team-image .line2 img {
+    height: 513px;
+  }
+
+  /* ==============================team part end======================================= */
+  /* ==============================price part start==================================== */
+  #price-part .item .price-circle {
+    width: 90px;
+    height: 90px;
+    top: 18%;
+  }
+
+  #price-part .item .price-circle .price-rate {
+    width: 80px;
+    height: 80px;
+  }
+
+  #price-part .item .price-circle .price-rate p {
+    font-size: 22px;
+  }
+
+  #price-part .item .price-circle .price-rate .rate-p {
+    font-size: 12px;
+  }
+
+  #price-part .item .price-details {
+    padding-top: 10px;
+  }
+
+  #price-part .item .price-details p {
+    line-height: 15px;
+  }
+
+  #price-part .item .join a {
+    font-size: 14px;
+  }
+
+  #price-part .item .join h4 {
+    padding-top: 25px;
+    padding-bottom: 14px;
+    font-size: 16px;
+  }
+  /* ==============================price part end========================================== */
+  /* ==============================counter part start====================================== */
+  #counter .main-counter-area {
+    clip-path: polygon(0px 22%, 100% 0px, 100% 58%, 0% 80%);
+    height: 255px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+
+  #counter .main-counter-area .overlay .rotate {
+    transform: rotate(-4.25deg);
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one {
+    margin: 41px 10px 0;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* ==============================counter part end========================================= */
+  /* ==============================member part start======================================== */
+  #member-part .title p {
+    margin-bottom: -20px;
+    margin-top: 10px;
+  }
+
+  #member-part .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #member-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #member-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 1px solid #757575;
+    border-radius: 50%;
+  }
+
+  #member-part .slick-dots .slick-active button {
+    background-color: #fec600;
+    border-color: #fec600;
+  }
+
+  #member-part .member-one .social i {
+    margin: 0 5px;
+  }
+  /* ==============================member part end============================================= */
+  /* ==============================market place start========================================== */
+  #market-place .main-area {
+    clip-path: none;
+  }
+
+  #market-place .main-area .rotate {
+    transform: rotate(0);
+  }
+
+  #market-place .main-area .market-slider .place-one {
+    margin: 24px 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #market-place .main-area .market-slider .place-one img {
+    transform: rotate(0deg);
+  }
+  /* ==============================member place end============================================ */
+  /* ==============================footer place start========================================== */
+  #footer-part .footer-top::before {
+    display: none;
+  }
+
+  #footer-part .footer-top .logo {
+    border-bottom: 1px solid #bdb3b3;
+    transform: rotate(0deg);
+    padding-bottom: 0px;
+  }
+
+  #footer-part .footer-top .logo img {
+    transform: rotate(0deg);
+    padding: 20px 0;
+  }
+
+  #footer-part .footer .footer-item:nth-child(even):after {
+    width: 0;
+  }
+  /* ==============================footer place end============================================ */
+}
