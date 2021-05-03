@@ -127,6 +127,10 @@
   #about-part .item-right .details {
     margin-bottom: -30px !important;
   }
+
+  #about-part .item-left .details {
+    margin-bottom: -30px !important;
+  }
   /* ===================about part end======================= */
   /* ===================portfolio part start================= */
   #portfolio-part::before {
@@ -232,7 +236,7 @@
   }
 
   #team-part .down {
-    bottom: -293%;
+    bottom: -297%;
   }
 
   #team-part .text-slider .text .txt-details h3 {
@@ -576,6 +580,10 @@
     clip-path: none;
   }
 
+  #team-part .team-image .line2 img {
+    display: none;
+  }
+
   #team-part .team-background .overlay {
     padding-top: 80px;
     padding-bottom: 100px;
@@ -596,7 +604,7 @@
 
   #team-part .down {
     background: transparent;
-    bottom: -218%;
+    bottom: -222% !important;
   }
   /* =======================team part end=================================== */
   /* =======================pricing part start=================================== */
@@ -731,17 +739,9 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* ==============================nav part start=========================== */
-  nav i {
-    color: #fff;
-  }
-
-  .navbar-toggler:focus {
-    box-shadow: 0 0 0 0rem;
-  }
 
   nav ul {
-    background: rgba(0, 0, 0, 0.9);
-    text-align: center;
+    background: none;
   }
 
   nav ul li {
@@ -828,21 +828,30 @@
     width: auto;
   }
 
+  #about-part .item .border-round {
+    width: 200px;
+    height: 200px;
+    margin-top: 44px;
+  }
+
+  #about-part .item .border-round .image {
+    width: 170px;
+    height: 170px;
+  }
+
+  #about-part .item .border-round .image img {
+    width: 170px;
+    height: 170px;
+  }
+
+  #about-part .item-buttom {
+    margin-top: -21px;
+  }
+
   #about-part .item .details {
-    margin-bottom: -28px !important;
+    margin-bottom: -30px !important;
   }
 
-  #about-part .item-right .details {
-    margin-bottom: -28px !important;
-  }
-
-  #about-part .details .shape {
-    display: none;
-  }
-
-  #about-part .details i {
-    display: none;
-  }
   /* ==============================about part end============================= */
   /* ==============================portfolio part start============================= */
   #portfolio-part::before {
@@ -885,16 +894,8 @@
     margin-right: 38px;
   }
 
-  #team-part .text-slider .text .shape {
-    display: none;
-  }
-
-  #team-part .down {
-    bottom: -373px;
-  }
-
   #team-part .team-image .line2 img {
-    height: 513px;
+    height: 555px;
   }
 
   /* ==============================team part end======================================= */
@@ -1033,4 +1034,316 @@
     width: 0;
   }
   /* ==============================footer place end============================================ */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* ==============================nav part start=========================== */
+
+  nav ul {
+    background: none;
+  }
+
+  nav ul li {
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  nav ul li a::before {
+    display: none;
+  }
+  /* ==============================nav part end================================ */
+  /* ==============================banner part start=========================== */
+  #banner-part .banner-one {
+    clip-path: none;
+  }
+
+  #banner-part .banner-two {
+    clip-path: none;
+  }
+
+  #banner-part .banner-three {
+    clip-path: none;
+  }
+
+  .bnr-overlay .banner-text {
+    padding-top: 115px;
+    padding-bottom: 55px;
+  }
+
+  .bnr-overlay h2 {
+    font-size: 30px;
+  }
+
+  .bnr-overlay h1 {
+    font-size: 45px;
+    line-height: 25px;
+    margin: 22px 0;
+  }
+
+  .bnr-overlay p {
+    width: auto;
+  }
+
+  .bnr-overlay a {
+    font-size: 14px;
+    margin: 30px 6px 0px;
+  }
+
+  #banner-part .slick-dots {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #banner-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #banner-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #fec600;
+  }
+
+  #banner-part .slick-dots .slick-active button {
+    background: #fec600;
+    border-color: #fec600;
+  }
+  /* ==============================banner part end=========================== */
+  /* ==============================about part start=========================== */
+  .title h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .title p {
+    font-size: 14px;
+    margin: 15px auto;
+    width: auto;
+  }
+
+  #about-part .item .border-round {
+    width: 280px;
+    height: 280px;
+  }
+
+  #about-part .item .border-round .image {
+    width: 250px;
+    height: 250px;
+  }
+
+  #about-part .item .border-round .image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* ==============================about part end============================= */
+  /* ==============================portfolio part start============================= */
+  #portfolio-part::before {
+    display: none;
+  }
+
+  #portfolio-part::after {
+    display: none;
+  }
+
+  #portfolio-part .port-overlay {
+    padding: 20px 0;
+  }
+  /* ==============================portfolio part end=============================== */
+  /* ==============================service part start=============================== */
+  #service-part .service {
+    height: auto;
+  }
+
+  #service-part .service .heading h3 {
+    margin-top: 150px;
+  }
+
+  #service-part .line {
+    height: 765px;
+  }
+  /* ==============================service part end================================= */
+  /* ==============================team part start================================== */
+  #team-part .team-background {
+    clip-path: none;
+  }
+
+  #team-part .team-background .overlay {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  #team-part .text-slider .text .txt-details {
+    width: auto;
+    margin-right: 38px;
+  }
+
+  #team-part .team-image .line2 img {
+    height: 555px;
+  }
+
+  /* ==============================team part end======================================= */
+  /* ==============================price part start==================================== */
+  #price-part .item .price-circle {
+    width: 90px;
+    height: 90px;
+    top: 18%;
+  }
+
+  #price-part .item .price-circle .price-rate {
+    width: 80px;
+    height: 80px;
+  }
+
+  #price-part .item .price-circle .price-rate p {
+    font-size: 22px;
+  }
+
+  #price-part .item .price-circle .price-rate .rate-p {
+    font-size: 12px;
+  }
+
+  #price-part .item .price-details {
+    padding-top: 10px;
+  }
+
+  #price-part .item .price-details p {
+    line-height: 15px;
+  }
+
+  #price-part .item .join a {
+    font-size: 14px;
+  }
+
+  #price-part .item .join h4 {
+    padding-top: 25px;
+    padding-bottom: 14px;
+    font-size: 16px;
+  }
+  /* ==============================price part end========================================== */
+  /* ==============================counter part start====================================== */
+  #counter .main-counter-area {
+    clip-path: polygon(0px 22%, 100% 0px, 100% 51%, 0% 73%);
+    height: 255px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+
+  #counter .main-counter-area .overlay .rotate {
+    transform: rotate(-3.25deg);
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one {
+    margin: 41px 10px 0;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one h2 {
+    font-size: 24px;
+  }
+
+  #counter .main-counter-area .overlay .rotate .counter-one .signal-one p {
+    font-size: 18px;
+  }
+  /* ==============================counter part end========================================= */
+  /* ==============================member part start======================================== */
+  #member-part .title p {
+    margin-bottom: -20px;
+    margin-top: 10px;
+  }
+
+  #member-part .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+  }
+
+  #member-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #member-part .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 1px solid #757575;
+    border-radius: 50%;
+  }
+
+  #member-part .slick-dots .slick-active button {
+    background-color: #fec600;
+    border-color: #fec600;
+  }
+
+  #member-part .member-one .social i {
+    margin: 0 5px;
+  }
+  /* ==============================member part end============================================= */
+  /* ==============================market place start========================================== */
+  #market-place .main-area {
+    clip-path: none;
+  }
+
+  #market-place .main-area .rotate {
+    transform: rotate(0);
+  }
+
+  #market-place .main-area .market-slider .place-one {
+    margin: 24px 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #market-place .main-area .market-slider .place-one img {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  /* ==============================member place end============================================ */
+  /* ==============================footer place start========================================== */
+  #footer-part .footer-top::before {
+    display: none;
+  }
+
+  #footer-part .footer-top .logo {
+    border-bottom: 1px solid #bdb3b3;
+    transform: rotate(0deg);
+    padding-bottom: 0px;
+  }
+
+  #footer-part .footer-top .logo img {
+    transform: rotate(0deg);
+    padding: 20px 0;
+  }
+
+  #footer-part .footer .footer-item p {
+    font-size: 14px;
+  }
+
+  /* ==============================footer place end============================================ */
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98) {
+  /* ===============================counter part start====================================== */
+  #counter .main-counter-area {
+    clip-path: polygon(0px 29%, 100% 0px, 100% 60%, 0% 91%);
+  }
+
+  #counter .main-counter-area .overlay .rotate {
+    transform: rotate(-4deg);
+  }
+  /* ===============================counter part end======================================== */
 }

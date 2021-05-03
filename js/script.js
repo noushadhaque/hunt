@@ -105,7 +105,7 @@ $('.image-slider').slick({
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false,
@@ -115,19 +115,20 @@ $('.image-slider').slick({
     {
       breakpoint: 768,
       settings: {
-        // slidesToShow: 1,
-        // slidesToScroll: 1,
-        // centerMode: false,
-        // vertical: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: false,
+        vertical: false,
+        centerMode: true,
       }
     },
     {
       breakpoint: 576,
       settings: {
-        // dots: false,
-        // slidesToShow: 1,
-        // slidesToScroll: 1,
-        // vertical: false,
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        vertical: false,
       }
     }
   ]
@@ -159,10 +160,11 @@ $('.text-slider').slick({
     {
       breakpoint: 768,
       settings: {
-        // slidesToShow: 1,
-        // slidesToScroll: 1,
-        // centerMode: false,
-        // vertical: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false,
+        vertical: false,
+
       }
     },
     {

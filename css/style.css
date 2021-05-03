@@ -783,7 +783,7 @@ nav ul li a:hover::before {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: red;
+  background: #eeeeee;
   margin: 40px auto;
   position: relative;
   overflow: hidden;
@@ -803,7 +803,7 @@ nav ul li a:hover::before {
 }
 
 #team-part .overlay .image-slider .slick-center .round {
-  background: yellow;
+  background: #fec600;
   transform: scale(1.2);
 }
 
@@ -921,170 +921,6 @@ nav ul li a:hover::before {
   text-align: right;
   font-weight: 600;
 }
-
-/* #team-part {
-  background: url(../images/team-banner.jpg) no-repeat center;
-  background-size: cover;
-  position: relative;
-  clip-path: polygon(0 10%, 100% 0, 100% 86%, 0 95%);
-}
-
-#team-part .line {
-  background: url(../images/line.png);
-  width: 2px;
-  height: 548px;
-  position: absolute;
-  top: 138px;
-  left: 191px;
-  transform: translateX(-50%);
-}
-
-#team-part .overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 150px 0;
-}
-
-#team-part .overlay .img {
-  width: 90px !important;
-  height: 90px;
-  border-radius: 50%;
-  background: #f1f1f1;
-  margin: 40px 30px;
-  overflow: hidden;
-  position: relative;
-}
-
-#team-part .overlay .img img {
-  width: 100%;
-}
-
-#team-part .overlay .img .img-overlay {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#team-part .overlay .details {
-  background: #f1f1f1;
-  padding: 30px;
-  position: relative;
-  margin-left: 50px;
-  margin-top: 90px;
-}
-
-#team-part .overlay .details .shape {
-  width: 40px;
-  height: 40px;
-  background: #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: -20px;
-  transform: translateY(-50%) rotate(45deg);
-}
-
-#team-part .overlay .details h3 {
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  margin-bottom: 0;
-  color: #111111;
-}
-
-#team-part .overlay .details span {
-  color: #fec600;
-}
-
-#team-part .overlay .details h4 {
-  font-size: 16px;
-  font-family: "Raleway", sans-serif;
-  color: #353535;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-#team-part .overlay .details p {
-  color: #444444;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-#team-part .overlay .details h6 {
-  color: #111111;
-  font-family: "Sacramento", cursive;
-  font-size: 24px;
-  line-height: 24px;
-  text-align: right;
-  font-weight: 600;
-}
-
-#team-part .up {
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: transparent;
-  border: 1px solid #f1f1f1;
-  color: #f1f1f1;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-  transition: 0.4s;
-  position: absolute;
-  top: -44px;
-  left: 44%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-
-#team-part .up:hover {
-  color: #000;
-  background: #fec600;
-  border-color: transparent;
-}
-
-#team-part .down {
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: transparent;
-  border: 1px solid #f1f1f1;
-  color: #f1f1f1;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-  transition: 0.4s;
-  position: absolute;
-  bottom: -65px;
-  left: 44%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-
-#team-part .down:hover {
-  color: #000;
-  background: #fec600;
-  border-color: transparent;
-}
-
-#team-part .overlay .slick-center {
-  width: 100px !important;
-  height: 100px !important;
-  border-radius: 50%;
-  background: #fec600;
-  margin-left: 23px;
-}
-
-#team-part .overlay .slick-center .img-overlay {
-  opacity: 0;
-} */
 
 /* ==================================
             team part end
@@ -1403,9 +1239,6 @@ nav ul li a:hover::before {
   border-color: transparent;
 }
 
-/* #member-part .member-one .image img {
-  clip-path: polygon(0 36%, 100% 0, 100% 100%, 0% 100%);
-} */
 /* ==================================
             member part end
 ===================================*/
@@ -1420,7 +1253,6 @@ nav ul li a:hover::before {
 
 #market-place .main-area .rotate {
   transform: rotate(-4.25deg);
-  /* overflow: hidden; */
 }
 
 #market-place .main-area .market-slider {
